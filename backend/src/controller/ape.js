@@ -28,7 +28,7 @@ module.exports.postNumbers = async(ctx, next) => {
             isInt: {
                 options: [{
                     min: 2015,
-                    max: 2018
+                    max: 2020
                 }]
             },
             errorMessage: "Invalid AP number year"

@@ -19,7 +19,7 @@
         Fast
       </h2>
       <p class="bd-link-subtitle">
-        No more nail-biting until July 9th! Get your 2018 AP scores on July 5th at 8AM Eastern Time<span class="has-text-danger">*</span> with the fastest early score viewer on the planet.
+        No more nail-biting until July 17th! Get your 2020 AP scores on July15th at 8AM Eastern Time<span class="has-text-danger">*</span> with the fastest early score viewer on the planet.
       </p>
       <p class="bd-link-more is-size-6 has-text-danger">
         * disregarding College Board server crashes

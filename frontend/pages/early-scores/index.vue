@@ -8,11 +8,11 @@
               Early AP Scores
             </h1>
             <h2 class="subtitle">
-              Get your 2018 AP scores right as they come out on July 5th!
+              Get your 2020 AP scores right as they come out on July 15th!
             </h2>
             <p class="buttons">
               <a href="#" class="button" @click.prevent="showHowModal">How It Works</a>
-              <router-link to="/posts/2018/ap-score-info#release-schedule" class="button">Release Schedule and Map</router-link>
+              <router-link to="/posts/2020/ap-score-info#release-schedule" class="button">Release Schedule and Map</router-link>
               <a href="#" class="button" @click.prevent="isContactModalActive = true">Contact Us</a>
             </p>
             <hr>

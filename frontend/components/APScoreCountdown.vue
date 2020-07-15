@@ -2,8 +2,8 @@
   <transition name="drawdown">
     <div v-if="countdown.totalSeconds >= 0" class="card">
       <header :class="['card-header', countdown.totalSeconds === 0 ? 'has-background-success' : '']">
-        <p v-if="countdown.totalSeconds === 0" class="card-header-title has-text-white is-size-4">2018 AP scores are out!</p>
-        <p v-else class="card-header-title is-size-4">July 5, 2018 @ 8AM ET</p>
+        <p v-if="countdown.totalSeconds === 0" class="card-header-title has-text-white is-size-4">2020 AP scores are out!</p>
+        <p v-else class="card-header-title is-size-4">July 15, 2020 @ 8AM ET</p>
         <span :class="['card-header-icon', {'has-text-white': countdown.totalSeconds === 0}]">
           <b-icon icon="clock" />
         </span>
@@ -35,7 +35,7 @@
 </template>
 
 <script>
-const DOOMSDAY_2018 = 1530792000000;
+const DOOMSDAY_2020 = 1594742400000;
 
 export default {
   data() {
@@ -54,7 +54,7 @@ export default {
   },
   methods: {
     tickCountdown() {
-      let totalSeconds = this.countdown.totalSeconds = Math.max(0, Math.ceil((DOOMSDAY_2018 - Date.now()) / 1000));
+      let totalSeconds = this.countdown.totalSeconds = Math.max(0, Math.ceil((DOOMSDAY_2020 - Date.now()) / 1000));
       if(totalSeconds === 0) {
         this.countdown.days = this.countdown.hours = this.countdown.minutes = this.countdown.seconds = 0;
         clearInterval(this.countdown.interval);

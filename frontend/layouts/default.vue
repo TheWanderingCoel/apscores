@@ -6,7 +6,8 @@
       <div class="container">
         <div class="columns">
           <div class="column">
-            <p>&copy;2018 abalabahaha</p>
+            <p>&copy;2018-2020 abalabahaha</p>
+            <p>&copy;2019-2020 TheWanderingCoel</p>
             <hr>
             <p>AP® and College Board® are trademarks registered by the College Board, which is not affiliated with, and does not endorse, this site.</p>
           </div>

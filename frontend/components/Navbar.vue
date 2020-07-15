@@ -15,8 +15,8 @@
         <router-link class="navbar-item" to="/early-scores">
           Early Scores
         </router-link>
-        <router-link class="navbar-item" to="/posts/2018/ap-score-info">
-          2018 AP Info
+        <router-link class="navbar-item" to="/posts/2020/ap-score-info">
+          2020 AP Info
         </router-link>
       </div>
     </div>
